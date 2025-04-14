@@ -17,11 +17,15 @@ Folders 'without_interf' and 'with_interf' contain the codes for beam pattern tr
 ### Training
 To run an experiment, navigate to the dedicated folder (TD3, WDDPG, and ISAC-WDDPG) and execute the command
 
-```python TD-INVASE_Beamforming.py```
+```shell
+python TD-INVASE_Beamforming.py
+```
 
 All training results are stored in '../runs/' folder and can be visualized in tensorboard using the command
 
-```tensorboard --logdir=runs```
+```shell
+tensorboard --logdir=runs
+```
 
 The trained models are saved in the corresponding '../models/' folder.
 
@@ -30,7 +34,9 @@ The trained beam patterns are stored in the '../beams_allscenes/' folder as '.tx
 ### Beam pattern visualization
 To visualize trained beam patterns, execute the below command to create a './mat' in the folder '../beam_codebook_set/'
 
-```python read_beams.py```
+```shell
+python read_beams.py
+```
 
 Make sure to provide the appropriate inputs within the read_beams.py, i.e., the number of scenes and the number of beams for which you have trained the model.
 
