@@ -5,7 +5,9 @@ This repo contains the source code for the implementation of Causally-aware Rein
 ## Installation instructions
 All experiments are done on Python 3.8.8. You will need dependencies for PyTorch and CUDA-enabled GPU. THe code _may_ run on CPU but the will be slow. To install the dependencies, first set up an environment and then run the following command
 
-```pip install -r requirements.txt```
+```shell
+pip install -r requirements.txt
+```
 
 You will need MATLAB to visualize the trained beam patterns
 
