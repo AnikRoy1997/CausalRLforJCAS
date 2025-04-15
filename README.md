@@ -12,7 +12,7 @@ pip install -r requirements.txt
 You will need MATLAB to visualize the trained beam patterns
 
 ## Run an experiment
-Folders 'without_interf' and 'with_interf' contain the codes for beam pattern training, placed in deperate folders named after the corresponding beam pattern learning algorithm names. Download the dataset folders from this [google drive link](https://drive.google.com/drive/folders/15HBHfZ42VoOoVyaVGR04idyUKAftHEbg?usp=sharing). Now, for example, if you are running TD3-INVASE for beamforming for 'without_interf' case study, extract and move the contents of the downloaded file 'dataset_withoutinterf.zip' to the directory 'without_interf/TD3INV/'. Follow this step for the other beam pattern learning algorithms (TD3, WDDPG, and ISAC-WDDPG).
+Folders 'without_interf' and 'with_interf' contain the codes for beam pattern training, placed in deperate folders named after the corresponding beam pattern learning algorithm names. Channel dataset are present in folders 'without_interf/datasets_withoutinterf/' and 'with_interf/datasets_withinterf/'. These datasets have been generated from the O2 Dynamic scenario using [DeepMIMO](https://www.deepmimo.net/scenarios/o2-scenario/). Now, for example, if you are running TD3-INVASE for beamforming for 'without_interf' case study, extract and move the contents of the folder 'without_interf/datasets_withouinterf/' to the directory 'without_interf/TD3INV/'. Follow this step for the other beam pattern learning algorithms (TD3, WDDPG, and ISAC-WDDPG).
 
 ### Training
 To run an experiment, navigate to the dedicated folder (TD3, WDDPG, and ISAC-WDDPG) and execute the command
