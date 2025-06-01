@@ -1,6 +1,6 @@
 # Causally-aware Reinforcement Learning for Joint Communication and Sensing
 
-This repo contains the source code for the implementation of Causally-aware Reinforcement Learning for Joint Communication and Sensing.
+This repo contains the source codes of our work titled ["Causally-Aware Reinforcement Learning for Joint Communication and Sensing"](https://ieeexplore.ieee.org/abstract/document/10971373).
 
 ## Installation instructions
 All experiments are done on Python 3.8.8. You will need dependencies for PyTorch and CUDA-enabled GPU. THe code _may_ run on CPU but the will be slow. To install the dependencies, first set up an environment and then run the following command
@@ -41,3 +41,18 @@ python read_beams.py
 Make sure to provide the appropriate inputs within the read_beams.py, i.e., the number of scenes and the number of beams for which you have trained the model.
 
 Copy the folder contents of '../beam_codebook_set/' and paste it in 'beam_pattern/beam_codebook_set/'. Run the 'beam_pattern/beam_patterns_plotting.m' in MATLAB. The plots will be saved in the '../plots/' folder.
+
+### Citation
+if you use this codebase, please cite it as:
+```shell
+@ARTICLE{causaljcas,
+  author={Roy, Anik and Banerjee, Serene and Sadasivan, Jishnu and Sarkar, Arnab and Dey, Soumyajit},
+  journal={IEEE Transactions on Machine Learning in Communications and Networking}, 
+  title={Causally-Aware Reinforcement Learning for Joint Communication and Sensing}, 
+  year={2025},
+  volume={3},
+  number={},
+  pages={552-567}
+  doi={10.1109/TMLCN.2025.3562557}}
+
+```
