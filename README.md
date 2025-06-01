@@ -42,7 +42,7 @@ Make sure to provide the appropriate inputs within the read_beams.py, i.e., the 
 
 Copy the folder contents of '../beam_codebook_set/' and paste it in 'beam_pattern/beam_codebook_set/'. Run the 'beam_pattern/beam_patterns_plotting.m' in MATLAB. The plots will be saved in the '../plots/' folder.
 
-### Citation
+## Citation
 if you use this codebase, please cite it as:
 ```shell
 @ARTICLE{causaljcas,
